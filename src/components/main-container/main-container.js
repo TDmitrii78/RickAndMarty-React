@@ -2,6 +2,8 @@ import { Component } from "react";
 
 import "./main-container.css";
 
+import itemFoto from "../../resourses/img/morty.jpeg";
+
 class MainContainer extends Component {
 
     render() {
@@ -9,7 +11,7 @@ class MainContainer extends Component {
 
             <ul class="grid_container">
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -17,7 +19,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -25,7 +27,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -33,7 +35,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -41,7 +43,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -49,7 +51,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -57,7 +59,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -65,7 +67,7 @@ class MainContainer extends Component {
                 </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -73,7 +75,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -81,7 +83,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -89,7 +91,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -97,7 +99,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -105,7 +107,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -113,7 +115,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -121,7 +123,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -129,7 +131,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -137,7 +139,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -145,7 +147,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -153,7 +155,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>
@@ -161,7 +163,7 @@ class MainContainer extends Component {
                     </div>
                </li>
                <li>
-                    <img src="./img/morty.jpeg" alt="morty"/>
+                    <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
                         <p>Human - Alive</p>

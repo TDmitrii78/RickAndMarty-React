@@ -15,7 +15,7 @@ ul {
 }
 
 .back_ground {
-  background-image: url(./img/randm_bg.jpg);
+  background-image: url("../../resourses/img/randm_bg.jpg");
   background-size: cover;
   background-position: center;
 }/*# sourceMappingURL=app.css.map */

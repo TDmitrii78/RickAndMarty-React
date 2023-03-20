@@ -2,6 +2,8 @@ import { Component } from "react";
 
 import "./header.css";
 
+import heartFoto from "../../resourses/img/heart.png";
+
 class Header extends Component {
 
     render() {
@@ -16,7 +18,7 @@ class Header extends Component {
                     </ul>
                 </nav>
                 <div class="like_favorites">
-                    <img src="./img/heart.png" alt="heart"/>
+                    <img src={heartFoto} alt="heart"/>
                     <h2>7</h2>
                 </div>
             </header>
