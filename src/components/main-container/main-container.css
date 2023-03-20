@@ -1,0 +1,112 @@
+@media (min-width: 1000px) {
+  .grid_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 200px);
+    gap: 20px;
+  }
+  .grid_container li {
+    box-shadow: 25px 25px 25px black;
+    border-radius: 5px;
+    height: 300px;
+  }
+  .grid_container li img {
+    width: 100%;
+  }
+  .grid_container li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  .grid_container li div button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 701px) and (max-width: 999px) {
+  .grid_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+  }
+  .grid_container li {
+    box-shadow: 25px 25px 25px black;
+    border-radius: 5px;
+    height: 300px;
+  }
+  .grid_container li img {
+    width: 100%;
+  }
+  .grid_container li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  .grid_container li div button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  .grid_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+  }
+  .grid_container li {
+    box-shadow: 25px 25px 25px black;
+    border-radius: 5px;
+    height: 300px;
+  }
+  .grid_container li img {
+    width: 100%;
+  }
+  .grid_container li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  .grid_container li div button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 499px) {
+  .grid_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 150px);
+    gap: 20px;
+  }
+  .grid_container li {
+    box-shadow: 25px 25px 25px black;
+    border-radius: 5px;
+    height: 250px;
+  }
+  .grid_container li img {
+    width: 100%;
+  }
+  .grid_container li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  .grid_container li div button {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=main-container.css.map */

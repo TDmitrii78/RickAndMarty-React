@@ -1,0 +1,14 @@
+.info_page {
+    color: white;
+    display: flex;
+    background-image: linear-gradient(0deg, rgb(97, 58, 58), beige);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    p {
+        padding: 10px;
+    }
+}
+.hover:hover{
+    color:blue;
+}

@@ -1,0 +1,21 @@
+.character_info {
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-radius: 25px;
+        box-shadow: 25px 25px 25px yellow;
+        background-color: brown;
+        border: 3px solid black;
+    }
+}
