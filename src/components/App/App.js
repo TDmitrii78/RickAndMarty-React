@@ -10,14 +10,7 @@ import "./App.css";
 
 class App extends Component {
 
-
-
     render() {
-        // fetch("https://rickandmortyapi.com/api/character")
-        // .then((response) => response.json())
-        // .then((res) => console.dir(res))
-        // .catch(() => console.log("error"));
-        
         return (
             <div>
                 <Header/>
