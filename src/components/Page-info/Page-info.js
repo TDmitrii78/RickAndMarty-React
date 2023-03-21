@@ -6,7 +6,7 @@ class PageInfo extends Component {
 
     render() {
         return (
-            <div class="character_info">
+            <div className="character_info">
                 <div>
                     <h2>Character info</h2>
                     <img src="img/morty.jpeg" alt="morty"/>

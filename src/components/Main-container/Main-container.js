@@ -1,16 +1,18 @@
 import { Component } from "react";
 
+import CharacterItem from "../Character-item/Character-item";
+
 import "./main-container.css";
 
-import itemFoto from "../../resourses/img/morty.jpeg";
 
 class MainContainer extends Component {
 
     render() {
         return (
 
-            <ul class="grid_container">
-               <li>
+            <ul className="grid_container">
+                <CharacterItem/>
+               {/* <li>
                     <img src={itemFoto} alt="morty"/>
                     <div>
                         <h3>Morty Smith</h3>
@@ -169,7 +171,7 @@ class MainContainer extends Component {
                         <p>Human - Alive</p>
                         <button>Add to Favorites</button>
                     </div>
-                </li>
+                </li> */}
             </ul>
         )
     }

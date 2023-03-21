@@ -1,10 +1,10 @@
 import { Component } from "react";
 
-import Header from "../header/header";
-import Menu from "../menu/menu";
-import MainContainer from "../main-container/main-container";
-import InfoPage from "../info-page/info-page";
-import Footer from "../footer/footer";
+import Header from "../Header/Header";
+import Menu from "../Menu/Menu";
+import MainContainer from "../Main-container/Main-container";
+import InfoPage from "../Info-page/Info-page";
+import Footer from "../Footer/Footer";
 
 import "./app.css";
 
@@ -23,7 +23,7 @@ class App extends Component {
                 <Header/>
                 <main>
                     <Menu/>
-                    <div class="back_ground">
+                    <div className="back_ground">
                         <MainContainer/>
                         <InfoPage/>
                         <Footer/>

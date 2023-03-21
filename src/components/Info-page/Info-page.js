@@ -6,10 +6,10 @@ class InfoPage extends Component {
 
     render() {
         return (
-            <ul class="info_page">
+            <ul className="info_page">
                 <li>Page 1 of 42</li>
-                <li class="hover">&lt;&lt;Prew</li>
-                <li class="hover">Next&gt;&gt;</li>
+                <li className="hover">&lt;&lt;Prew</li>
+                <li className="hover">Next&gt;&gt;</li>
             </ul>
         );
     }
