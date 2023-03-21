@@ -6,17 +6,17 @@ import MainContainer from "../Main-container/Main-container";
 import InfoPage from "../Info-page/Info-page";
 import Footer from "../Footer/Footer";
 
-import "./app.css";
+import "./App.css";
 
 class App extends Component {
 
 
 
     render() {
-    //     fetch("https://rickandmortyapi.com/api/character/2")
-    //     .then((response) => response.json())
-    //     .then((res) => console.dir(res))
-    //     .catch(() => console.log("error"));
+        // fetch("https://rickandmortyapi.com/api/character")
+        // .then((response) => response.json())
+        // .then((res) => console.dir(res))
+        // .catch(() => console.log("error"));
         
         return (
             <div>

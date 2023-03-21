@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-import "./menu.css";
+import "./Menu.css";
 
 class Menu extends Component {
     constructor(props) {

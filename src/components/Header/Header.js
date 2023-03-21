@@ -1,4 +1,4 @@
-import "./header.css";
+import "./Header.css";
 
 import heartFoto from "../../resourses/img/heart.png";
 

@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-import "./page-info.css";
+import "./Page-info.css";
 
 class PageInfo extends Component {
 

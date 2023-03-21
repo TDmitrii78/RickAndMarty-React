@@ -1,0 +1,96 @@
+
+@media (min-width: 1000px)  {
+
+    .item {
+        box-shadow: 25px 25px 25px black;
+        border-radius: 5px;
+        height: 300px;
+        img {
+            width: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            button {
+                width: 150px;
+                height: 35px;
+                border-radius: 5px;
+            }
+        }
+    }
+} 
+
+@media (min-width: 701px) and (max-width: 999px) {
+
+    .item{
+        box-shadow: 25px 25px 25px black;
+        border-radius: 5px;
+        height: 300px;
+        img {
+            width: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            button {
+                width: 150px;
+                height: 35px;
+                border-radius: 5px;
+            }
+        }
+    }
+} 
+
+@media (min-width: 500px) and (max-width: 700px)  {
+
+    .item {
+        box-shadow: 25px 25px 25px black;
+        border-radius: 5px;
+        height: 300px;
+        img {
+            width: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            button {
+                width: 150px;
+                height: 35px;
+                border-radius: 5px;
+            }
+        }
+    }
+} 
+
+@media (max-width: 499px)  {
+
+    .item {
+        box-shadow: 25px 25px 25px black;
+        border-radius: 5px;
+        height: 250px;
+        img {
+            width: 100%;
+        }
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            button {
+                width: 150px;
+                height: 35px;
+                border-radius: 5px;
+            }
+        }
+    }
+} 
