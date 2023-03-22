@@ -11,7 +11,7 @@ class MainContainer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            objectArray: "",
+            objectArray: [],
             prevPage: "",
             nextPage: "",
             pages: ""
@@ -35,7 +35,7 @@ class MainContainer extends Component {
         const object = this.state.objectArray;
 
         let element;
-        if (object.length > 0) {
+   
             element = this.state.objectArray.map(el => {
         
                 return (
@@ -47,7 +47,7 @@ class MainContainer extends Component {
                     />
                 )
             })
-        }
+   
 
         return (
 
