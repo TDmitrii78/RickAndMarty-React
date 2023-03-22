@@ -4,14 +4,17 @@
     .item {
         box-shadow: 25px 25px 25px black;
         border-radius: 5px;
-        height: 300px;
+        height: 330px;
         img {
-            width: 100%;
+            height: 200px;
+            border-radius: 5px 5px 5px 5px;
         }
         div {
             display: flex;
+            height: 100px;
             flex-direction: column;
             align-items: center;
+            justify-content: space-between;
             gap: 5px;
             color: white;
             button {
@@ -28,14 +31,17 @@
     .item{
         box-shadow: 25px 25px 25px black;
         border-radius: 5px;
-        height: 300px;
+        height: 330px;
         img {
-            width: 100%;
+            width: 200px;
+            border-radius: 5px 5px 5px 5px;
         }
         div {
             display: flex;
             flex-direction: column;
+            height: 100px;
             align-items: center;
+            justify-content: space-between;
             gap: 5px;
             color: white;
             button {
@@ -52,14 +58,17 @@
     .item {
         box-shadow: 25px 25px 25px black;
         border-radius: 5px;
-        height: 300px;
+        height: 330px;
         img {
-            width: 100%;
+            width: 200px;
+            border-radius: 5px 5px 5px 5px;
         }
         div {
             display: flex;
             flex-direction: column;
+            height: 100px;
             align-items: center;
+            justify-content: space-between;
             gap: 5px;
             color: white;
             button {
@@ -76,14 +85,17 @@
     .item {
         box-shadow: 25px 25px 25px black;
         border-radius: 5px;
-        height: 250px;
+        height: 280px;
         img {
-            width: 100%;
+            width: 150px;
+            border-radius: 5px 5px 5px 5px;
         }
         div {
             display: flex;
             flex-direction: column;
+            height: 120px;
             align-items: center;
+            justify-content: space-between;
             gap: 5px;
             color: white;
             button {
