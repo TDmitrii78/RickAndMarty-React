@@ -1,14 +1,12 @@
 .character_info {
-    background-image: url(../img/bg.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
+    min-height: 1080px;
     flex-direction: column;
     align-items: center;
     color: white;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 10px;
     div {
+        width: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -18,4 +16,17 @@
         background-color: brown;
         border: 3px solid black;
     }
+    button {
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+
+.visiblePage2 {
+    display: flex;
+}
+
+.hidenPage2 {
+    display: none;
 }

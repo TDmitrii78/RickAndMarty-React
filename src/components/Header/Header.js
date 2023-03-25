@@ -3,13 +3,13 @@ import "./Header.css";
 import heartFoto from "../../resourses/img/heart.png";
 
 
-const Header = () => {
+const Header = (props) => {
 
     const onSelect = (event) => {
-        console.log(event.target.dataset.select);
+        props.onToggle(event.target.dataset.select);
     }
 
-    const countLike = 7;
+    const countLike = props.favorites.length;
     return (
         <header className="header">
             <h1>The Rick and Morty API</h1>

@@ -1,6 +1,5 @@
 class ServiceRickAndMorty {
     
-
     getResourse = async (url) => {
         let res = await fetch(url);
 
@@ -10,13 +9,9 @@ class ServiceRickAndMorty {
         return res.json();
     }
 
-    getRequest = () => {
-        return this.getResourse("https://rickandmortyapi.com/api/character/?page=3");
+    getRequest = (url) => {
+        return this.getResourse(url);
     }
-
-    
-
-
 }
 
 export default ServiceRickAndMorty;

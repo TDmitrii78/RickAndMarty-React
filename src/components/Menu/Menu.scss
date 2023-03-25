@@ -1,6 +1,5 @@
 @media (min-width: 701px)  {
     .menu {
-        display: flex;
         justify-content: center;
         height: 50px;
         align-items: center;
@@ -39,7 +38,6 @@
 
 @media (max-width: 700px)  {
     .menu {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100px;
@@ -80,4 +78,12 @@
 
 .lightButton {
     background-color: red;
+}
+
+.visibleMenu {
+    display: flex;
+}
+
+.hidenMenu {
+    display: none;
 }

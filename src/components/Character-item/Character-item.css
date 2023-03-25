@@ -97,4 +97,16 @@
     height: 35px;
     border-radius: 5px;
   }
+}
+.select {
+  background-color: red;
+}
+
+.itemMove {
+  position: relative;
+  top: 3px;
+}
+
+.selectImg {
+  border: 5px solid yellow;
 }/*# sourceMappingURL=Character-item.css.map */

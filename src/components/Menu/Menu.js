@@ -29,12 +29,16 @@ class Menu extends Component {
         }))
     }
 
-    onFilterCharacter = (event) => {
-        console.log(event.target.dataset.menu);
+    onFilterCharacter = (event) => {    
+         this.props.onToggle(event.target.dataset.menu);
     }
 
     onClickButton = () => {
-        console.log(this.state.inputName);
+        const word = this.state.inputName;
+        if (word) {
+            this.props.onToggle(word);
+        }
+        this.setState({ inputName: "" });
     }
 
     render() {
@@ -45,8 +49,15 @@ class Menu extends Component {
             lightButton = null;
         }
 
+        let className = "menu";
+        if (this.props.visible) {
+            className += ` visibleMenu`;
+        } else {
+            className += ` hidenMenu`;
+        }
+
         return (
-            <div className="menu">
+            <div className={className}>
                 <ul onClick={this.onFilterCharacter}>
                     <li data-menu="All">All</li>
                     <li data-menu="Human">Human</li>

@@ -3,20 +3,44 @@ import { Component } from "react";
 import "./Info-page.css";
 
 class InfoPage extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            next: true,
+            prev: true
+        }
+    }
 
     onInfoPage = (event) => {
-        console.log(event.target.dataset.page);
+        (event.target.dataset.page === "prev") ? this.setState(({prev: !this.state.prev})) : this.setState(({next: !this.state.next})) ;
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        const {next, prev} = this.state;
+        if (this.state.next !== prevState.next) {
+            this.props.onNextPage(next);
+        }
+        if (this.state.prev !== prevState.prev) {
+            this.props.onPrevPage(prev);
+        }
     }
 
     render() {
-        const currentPage = 1, allPage = 42;
+        const {currentPage, allPage} = this.props;
+        let className = "info_page";
+        if (this.props.visible) {
+            className += ` visibleInfo`;
+        } else {
+            className += ` hidenInfo`;
+        }
+
         return (
-            <ul className="info_page"
-                onClick={this.onInfoPage}>
+            <ul className={className}
+                onClick={(event) => {this.onInfoPage(event); window.scrollTo(0, 0)}}>
                 <li>Page {currentPage} of {allPage}</li>
                 <li 
                     className="hover"
-                    data-page="prew"
+                    data-page="prev"
                     >&lt;&lt;Prew</li>
                 <li 
                     className="hover"
